@@ -1,0 +1,40 @@
+// src/constants/subnetMasks.ts
+
+export const SUBNET_MASK_OPTIONS: { value: string; label: string }[] = [
+  { value: "0.0.0.0", label: "/0" },
+  { value: "128.0.0.0", label: "/1" },
+  { value: "192.0.0.0", label: "/2" },
+  { value: "224.0.0.0", label: "/3" },
+  { value: "240.0.0.0", label: "/4" },
+  { value: "248.0.0.0", label: "/5" },
+  { value: "252.0.0.0", label: "/6" },
+  { value: "254.0.0.0", label: "/7" },
+  { value: "255.0.0.0", label: "/8" },
+  { value: "255.128.0.0", label: "/9" },
+  { value: "255.192.0.0", label: "/10" },
+  { value: "255.224.0.0", label: "/11" },
+  { value: "255.240.0.0", label: "/12" },
+  { value: "255.248.0.0", label: "/13" },
+  { value: "255.252.0.0", label: "/14" },
+  { value: "255.254.0.0", label: "/15" },
+  { value: "255.255.0.0", label: "/16" },
+  { value: "255.255.128.0", label: "/17" },
+  { value: "255.255.192.0", label: "/18" },
+  { value: "255.255.224.0", label: "/19" },
+  { value: "255.255.240.0", label: "/20" },
+  { value: "255.255.248.0", label: "/21" },
+  { value: "255.255.252.0", label: "/22" },
+  { value: "255.255.254.0", label: "/23" },
+  { value: "255.255.255.0", label: "/24" },
+  { value: "255.255.255.128", label: "/25" },
+  { value: "255.255.255.192", label: "/26" },
+  { value: "255.255.255.224", label: "/27" },
+  { value: "255.255.255.240", label: "/28" },
+  { value: "255.255.255.248", label: "/29" },
+  { value: "255.255.255.252", label: "/30" },
+  { value: "255.255.255.254", label: "/31" },
+  { value: "255.255.255.255", label: "/32" },
+];
+
+// Опционально: экспорт маски по умолчанию
+export const DEFAULT_SUBNET_MASK = "255.255.255.0";

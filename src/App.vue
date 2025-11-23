@@ -1,5 +1,10 @@
+<!-- src/App.vue -->
 <template>
-  <main>
-    <RouterView />
-  </main>
+  <div id="app">
+    <HomePage />
+  </div>
 </template>
+
+<script setup lang="ts">
+import HomePage from './pages/HomePage.vue';
+</script>
